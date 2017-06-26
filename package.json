@@ -1,6 +1,6 @@
 {
   "name": "webassembly-binary-toolkit",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "The WebAssembly Binary toolkit installable through npm",
   "main": "index.js",
   "scripts": {
