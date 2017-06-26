@@ -4,7 +4,7 @@
   "description": "The WebAssembly Binary toolkit installable through npm",
   "main": "index.js",
   "scripts": {
-    "install": "./install.sh"
+    "preinstall": "./install.sh"
   },
   "dependencies": {},
   "devDependencies": {},
