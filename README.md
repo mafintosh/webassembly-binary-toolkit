@@ -17,6 +17,10 @@ wast2wasm example.wat -o example.wasm
 
 See the repos for more options.
 
+## See also
+
+* [wast2js](https://github.com/mafintosh/wast2js) - Compile .wat files to common js modules.
+
 ## License
 
 MIT
