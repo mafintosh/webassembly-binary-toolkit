@@ -10,7 +10,7 @@ rm -rf binaryen
 git clone https://github.com/WebAssembly/binaryen
 
 cd wabt
-make
+cmake . && make
 cd ..
 
 cd binaryen
