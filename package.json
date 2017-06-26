@@ -1,0 +1,35 @@
+{
+  "name": "webassembly-binary-toolkit",
+  "version": "0.0.0",
+  "description": "The WebAssembly Binary toolkit installable through npm",
+  "main": "index.js",
+  "scripts": {
+    "install": "./install.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/webassembly-binary-toolkit.git"
+  },
+  "bin": {
+    "wast2wasm": "wabt/out/clang/Debug/wast2wasm",
+    "wasm2wast": "wabt/out/clang/Debug/wasm2wast",
+    "wasm-objdump": "wabt/out/clang/Debug/wasm-objdump",
+    "wasm-interp": "wabt/out/clang/Debug/wasm-interp",
+    "wast-desugar": "wabt/out/clang/Debug/wast-desugar",
+    "wasm-link": "wabt/out/clang/Debug/wasm-link",
+    "wasm-shell": "binaryen/bin/wasm-shell",
+    "wasm-as": "binaryen/bin/wasm-as",
+    "wasm-dis": "binaryen/bin/wasm-dis",
+    "wasm-opt": "binaryen/bin/wasm-opt",
+    "asm2wasm": "binaryen/bin/asm2wasm",
+    "s2wasm": "binaryen/bin/s2wasm"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/webassembly-binary-toolkit/issues"
+  },
+  "homepage": "https://github.com/mafintosh/webassembly-binary-toolkit"
+}
