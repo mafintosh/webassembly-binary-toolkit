@@ -13,12 +13,12 @@
     "url": "https://github.com/mafintosh/webassembly-binary-toolkit.git"
   },
   "bin": {
-    "wast2wasm": "wabt/out/clang/Debug/wast2wasm",
-    "wasm2wast": "wabt/out/clang/Debug/wasm2wast",
-    "wasm-objdump": "wabt/out/clang/Debug/wasm-objdump",
-    "wasm-interp": "wabt/out/clang/Debug/wasm-interp",
-    "wast-desugar": "wabt/out/clang/Debug/wast-desugar",
-    "wasm-link": "wabt/out/clang/Debug/wasm-link",
+    "wast2wasm": "wabt/bin/wast2wasm",
+    "wasm2wast": "wabt/bin/wasm2wast",
+    "wasm-objdump": "wabt/bin/wasm-objdump",
+    "wasm-interp": "wabt/bin/wasm-interp",
+    "wast-desugar": "wabt/bin/wast-desugar",
+    "wasm-link": "wabt/bin/wasm-link",
     "wasm-shell": "binaryen/bin/wasm-shell",
     "wasm-as": "binaryen/bin/wasm-as",
     "wasm-dis": "binaryen/bin/wasm-dis",
