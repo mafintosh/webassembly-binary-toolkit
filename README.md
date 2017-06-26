@@ -7,6 +7,7 @@ npm install -g webassembly-binary-toolkit
 ```
 
 Will download and compile the WebAssembly tools from https://github.com/WebAssembly/wabt and https://github.com/WebAssembly/binaryen
+
 Requires git, make and cmake to be installed.
 
 After installing you'll be able to use all the WASM tools directly from you command line
